@@ -1,8 +1,16 @@
-header, footer {
+/* header */
+header {
     background-color: #660066;
     color: #ffe6ff;
 }
 
+/* body */
 main {
     background-color: #ccd9ff;
+}
+
+/* footer */
+footer {
+    background-color: #660066;
+    color: #ffe6ff;
 }
