@@ -1,7 +1,27 @@
+/* all content */
+body {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+}
+
 /* header */
 header {
     background-color: #660066;
     color: #ffe6ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+header p {
+    font-size: 0.8em;
+    padding-bottom: 0px;
 }
 
 /* body */
@@ -9,8 +29,42 @@ main {
     background-color: #ccd9ff;
 }
 
+figure {
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
+
+.about-us, .offerings {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+li {
+    text-align: left;
+}
+
+.summer, .winter {
+    display: inline-block;
+}
+
 /* footer */
 footer {
     background-color: #660066;
     color: #ffe6ff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+
+footer p {
+    font-size: 0.8em;
+    text-align: left;
 }
