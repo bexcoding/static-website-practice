@@ -1,0 +1,12 @@
+#usa, #krom, #sweets {
+    display: inline-block;
+}
+
+img {
+    max-height: 400px;
+    max-width: 400px;
+}
+
+img #banner-photo {
+    width: auto;
+}
