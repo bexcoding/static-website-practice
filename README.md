@@ -11,3 +11,15 @@ Here are two screenshots of the Alaska Tour site:
 ![Screenshot of top half of aktour site](https://github.com/bexcoding/static-website-practice/blob/main/images/screenshot-aktour-1.png)
 
 ![Screenshot of bottom half of aktour site](https://github.com/bexcoding/static-website-practice/blob/main/images/screenshot-aktour-2.png)
+
+# Beck's Apartments Website
+
+The apartment site is the next website I made after the mock tour website. I learned a few more tricks on freeCodeCamp (like flexbox positioning) that I was able to try out this time. This includes flexbox, links, and forms. This website, unlike the first one that I made, is inspired by an actual website. It is inspired by the [Weidner Apartments](https://weidner.securecafe.com/residentservices/apartmentsforrent/userlogin.aspx) resident login page. I tried to make a fairly similar website without looking at any source code. I didn't bother putting in every last detail or copying the words on the page so that I could put my own touch on the website. The ```Forgot password?``` link does not actually work and the form submission button doesn't actually work because I didn't build out the functionality. 
+
+Below are some screenshots of the website. The first two are the top and bottom with the same window size. The third screenshot is a partial view of how the website does with resizing the windows:
+
+![Screenshot of top half of apartment website](https://github.com/bexcoding/static-website-practice/blob/main/images/screenshot-apartment-1.png)
+
+![Screenshot of bottom half of apartment website](https://github.com/bexcoding/static-website-practice/blob/main/images/screenshot-apartment-2.png)
+
+![Screenshot of resized apartment website](https://github.com/bexcoding/static-website-practice/blob/main/images/screenshot-apartment-3.png)
