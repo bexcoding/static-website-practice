@@ -1,7 +1,100 @@
+body {
+    background-color: #ffffff;
+    margin: 0;
+}
+
 header {
-    border-bottom: black 20px solid;
+    border-bottom: #d3d2ce 50px solid;
+}
+
+#icon {
+    display: inline-block;
+    width: 50px;
+    height: auto;
+    padding-left: 10px;
+}
+
+h1 {
+    color: #0e0348;
+    display: inline-block;
+}
+
+#signing {
+    width: 100%;
+    height: auto;
 }
 
 main {
+    padding: 10px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: #9ec544;
+    text-align: center;
+    font-size: 1.8em;
+    padding: 30px;
+}
+
+.flex-container {
     display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.sign-in {
+    background-color: #d3d2ce;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input {
+    width: 100%;
+}
+
+input[type="submit"] {
+    color:#ffffff;
+    background-color: #9ec544;
+    border-radius: 10px;
+    border-style: groove;
+    font-size: 1em;
+    width: 50%;
+    align-self: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0e0348;
+}
+
+a {
+    color:#0e0348;
+}
+
+a:hover {
+    color: #9ec544;
+}
+
+a:visited {
+    color: #9ec544;
+}
+
+#forgot-password {
+    font-size: 0.8em;
+    text-align: center;
+}
+
+h3 {
+    color: #0e0348;
+}
+
+footer {
+    padding: 10px;
+    font-size: 0.8em;
 }

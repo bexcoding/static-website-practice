@@ -3,26 +3,42 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="apartment.css">
-    <title>Generic Apartment Website</title>
+    <title>Beck's Apartment Homes</title>
   </head>
   <body>
     <header>
-      <p>TODO add small icon to left of header</p>
+      <!-- icon source https://p.kindpng.com/picc/s/148-1489354_dome-city-city-icon-png-transparent-png-download.png -->
+      <img id="icon" src="images/city-icon.jpeg" alt="icon of cityscape">
       <h1>Beck's Apartment Homes</h1>
-      <p>TODO add image of apartment building</p>
+      <!-- image source https://www.aaamoversinc.com/wp-content/uploads/2020/01/home-closing-small.jpg -->
+      <img id="signing" src="images/apartment-signing.jpg" alt="picture of signing up for apartment deal">
     </header>
     <main>
-      <h2>Welcome to the resident portal</h2>
-      <div class="sign-in">
-        <p>TODO create a sign in form with email, password, and login button</p>
-      </div>
-      <div class="explanation">
-        <p>Sign in here to do the following:</p>
-        <p>TODO add what can be done by signing in here</p>
+      <h2>Welcome to the Resident Portal</h2>
+      <div class="flex-container">
+        <div class="sign-in">
+          <p>All fields required:</p>
+          <form>
+            <label for="email">Email: <input id="email" name="email" type="email" required></label>
+            <label for="password">Password: <input id="password" name="password" type="password" required></label>
+            <input type="submit" value="Submit">
+          </form>
+          <p id="forgot-password"><a>Forgot password?</a></p>
+        </div>
+        <div class="explanation">
+          <h3>Sign in here to do the following:</h3>
+          <ul>
+            <li>Make payments</li>
+            <li>Submit maintenance requests</li>
+            <li>Update your contact info</li>
+            <li>Set up auto pay</li>
+            <li>Get in contact with apartment staff</li>
+          </ul>
+        </div>
       </div>
     </main>
     <footer>
-      <p>TODO add copyright statements</p>
+      <p>© Alexander Beck April 2023. Mock website with fictional information. No credit taken for images. To see image credit, look at html source. Visit my <a href="https://github.com/bexcoding" target="_blank" rel="noopener noreferrer">GitHub website</a> to see all of the code that I write.</p>
     </footer>
   </body>
 </html>
