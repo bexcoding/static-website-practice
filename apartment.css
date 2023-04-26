@@ -1,0 +1,7 @@
+header {
+    border-bottom: black 20px solid;
+}
+
+main {
+    display: flex;
+}
