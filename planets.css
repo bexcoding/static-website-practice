@@ -1,9 +1,65 @@
 body {
+    /* background source https://www.nasa.gov/sites/default/files/styles/full_width_feature/public/thumbnails/image/ngc6357.jpg */
     background-image: url(images/cosmic.jpg);
-    color: white;
+    color: #ffffff;
     margin: 0;
 }
 
 header {
-    background-color: #9708aa;
+    background-color: #000000dd;
+    padding: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.6em;
+    color: #a591bd;
+}
+
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+
+a {
+    color: #a7109c;
+    font-size: 1.2em;
+}
+
+a:hover {
+    color: #e64fdb;
+}
+
+a:active {
+    color: #bc84fc;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+main img {
+    width: 55%;
+    height: auto;
+}
+
+main p {
+    background-color: #000000dd;
+    width: 40%;
+    height: auto;
+}
+
+footer {
+    background-color: #000000dd;
+    padding: 20px;
 }
